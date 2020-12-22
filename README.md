@@ -1,6 +1,6 @@
 # Zero-Maintenance-Factory-Design-Pattern
 
-The factory design pattern creates objects.
+The factory design pattern creates objects. \n
 The exact class of the object is unspecified.
 
 # How this works
