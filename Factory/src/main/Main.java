@@ -9,8 +9,12 @@ public class Main {
 		Product p1 = Factory.createProduct("Apple");
 		Product p2 = Factory.createProduct("Orange");
 		Product p3 = Factory.createProduct("Banana");
-		Product p4 = Factory.createProduct("Cabbage");
+		Product p4 = Factory.createProduct("Cabbage"); 
 		
+		// The cabbage doesn't exist.
+		// Inside the factory package, create a Cabbage class that inherits from product.
+		// After, this code should run without errors.
+	
 		System.out.println(p1.getClass());
 		System.out.println(p2.getClass());
 		System.out.println(p3.getClass());
