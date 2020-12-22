@@ -14,4 +14,4 @@ The factory creates the product from the name with reflection.
 # Why is this practical?
 
 If the user creates many different product types, the factory accomodates.  
-Inside the factory class, the user does not evaluate each name case-by-case.  
+The user does not evaluate each name case-by-case.  
