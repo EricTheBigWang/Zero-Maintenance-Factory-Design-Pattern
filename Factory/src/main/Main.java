@@ -3,6 +3,24 @@ package main;
 import factory.Factory;
 import factory.Product;
 
+/**
+ * A zero maintenance factory design pattern.
+ * 
+ * How to use:
+ *     Define a class inside the factory.product package. 
+ *     The class inherits from product.
+ *     Create the object in the main class.
+ *     run Main.java
+ * 
+ * Sample exercise:
+ *     The Cabbage class doesn't exist.
+ *     Create a Cabbage class inside the factory package. 
+ *     The Cabbage inherits from product.
+ *     After, the code runs flawlessly.
+ * 
+ * @author Wang Yi Feng
+ */
+
 public class Main {
 	public static void main(String[] args) {		
 		Factory.getInstance();
@@ -10,10 +28,6 @@ public class Main {
 		Product p2 = Factory.createProduct("Orange");
 		Product p3 = Factory.createProduct("Banana");
 		Product p4 = Factory.createProduct("Cabbage"); 
-		
-		// The cabbage doesn't exist.
-		// Inside the factory package, create a Cabbage class that inherits from product.
-		// After, this code should run without errors.
 	
 		System.out.println(p1.getClass());
 		System.out.println(p2.getClass());

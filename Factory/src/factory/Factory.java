@@ -16,7 +16,7 @@ public class Factory {
 	public Factory() {
 		productTypes = new HashMap <String, String>();
 		loadProducts();
-		System.out.println(productTypes.toString());
+		// System.out.println(productTypes.toString());
 	}
 	
 	/**
