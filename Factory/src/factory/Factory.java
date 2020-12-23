@@ -33,12 +33,12 @@ public class Factory {
 	public static Product createProduct(String productType) {
 		if (productTypes.containsKey(productType)) {
 			try {
-	            return (Product) Class.forName(
-	            	productTypes.get(productType)
-	            ).newInstance();
+	            		return (Product) Class.forName(
+	        			productTypes.get(productType)
+	            		).newInstance();
 			} catch (Throwable e) {
 				System.err.println("Product " + productType + " could not be created.");
-	        }
+	        	}
 		}
 		System.err.println("Product " + productType + " does not exist.");
 		return null;
